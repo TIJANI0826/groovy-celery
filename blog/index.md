@@ -1,8 +1,8 @@
 ---
-title: Blog
-menus:
-  main:
-    title: Blog
-    weight: 2
+title: TjBlog
 layout: blog
+menu:
+  main:
+    weight: 2
+
 ---
