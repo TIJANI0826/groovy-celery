@@ -50,8 +50,8 @@ sections:
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: true
+file_template: ":tj:2019:8:7/:filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
   publish_command: bundle exec jekyll build -d _site
